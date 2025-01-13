@@ -56,14 +56,26 @@ export default function Footer() {
               Expertise, innovation et engagement pour des solutions sur mesure.
             </p>
             <div className="flex space-x-4">
-              <Link href={contact.social.linkedin} className="hover:text-[#fdca3f] transition-colors">
-                <Linkedin className="w-6 h-6" />
+              <Link 
+                href={contact.social.linkedin} 
+                className="hover:text-[#fdca3f] transition-colors"
+                aria-label="Suivez-nous sur LinkedIn"
+              >
+                <Linkedin className="w-6 h-6" aria-hidden="true" />
               </Link>
-              <Link href={contact.social.facebook} className="hover:text-[#fdca3f] transition-colors">
-                <Facebook className="w-6 h-6" />
+              <Link 
+                href={contact.social.facebook} 
+                className="hover:text-[#fdca3f] transition-colors"
+                aria-label="Suivez-nous sur Facebook"
+              >
+                <Facebook className="w-6 h-6" aria-hidden="true" />
               </Link>
-              <Link href={contact.social.instagram} className="hover:text-[#fdca3f] transition-colors">
-                <Instagram className="w-6 h-6" />
+              <Link 
+                href={contact.social.instagram} 
+                className="hover:text-[#fdca3f] transition-colors"
+                aria-label="Suivez-nous sur Instagram"
+              >
+                <Instagram className="w-6 h-6" aria-hidden="true" />
               </Link>
             </div>
           </motion.div>
@@ -126,7 +138,7 @@ export default function Footer() {
                   href={`mailto:${contact.email}`}
                   className="flex items-center text-white/80 hover:text-[#fdca3f] transition-colors"
                 >
-                  <Mail className="w-5 h-5 mr-2" />
+                  <Mail className="w-5 h-5 mr-2" aria-hidden="true" />
                   {contact.email}
                 </Link>
               </li>
@@ -135,12 +147,12 @@ export default function Footer() {
                   href={`tel:${contact.phone}`}
                   className="flex items-center text-white/80 hover:text-[#fdca3f] transition-colors"
                 >
-                  <Phone className="w-5 h-5 mr-2" />
+                  <Phone className="w-5 h-5 mr-2" aria-hidden="true" />
                   {contact.phone}
                 </Link>
               </li>
               <li className="flex items-start text-white/80">
-                <MapPin className="w-5 h-5 mr-2 mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 mr-2 mt-1 flex-shrink-0" aria-hidden="true" />
                 {contact.address}
               </li>
             </ul>
