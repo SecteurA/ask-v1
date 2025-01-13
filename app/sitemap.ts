@@ -35,7 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/ask-for-solutions/headhunting`,
+      url: `${baseUrl}/ask-for-solutions/chasse-de-tete`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,

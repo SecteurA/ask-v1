@@ -26,6 +26,26 @@ const expertises = [
     cta: "Prêts à transformer vos ressources humaines en un moteur de performance durable ?"
   },
   {
+    icon: Target,
+    title: "CHASSE DE TÊTE",
+    tagline: "Débusquer les talents, façonner l'avenir de vos équipes.",
+    description: `Le recrutement est une étape décisive pour toute entreprise. Les équipes
+    doivent s'adapter, de nouvelles compétences deviennent indispensables, et le
+    marché regorge de talents… mais comment repérer celui qui fera la différence ?`,
+    question: "Êtes-vous prêt à transformer ce défi en opportunité stratégique ?",
+    solution: `Chez ASK Advisory, nous savons que chaque talent est unique, tout
+    comme les besoins de votre entreprise. Grâce à une méthodologie rigoureuse et
+    un réseau étendu, nous identifions les profils qui s'alignent parfaitement avec
+    vos objectifs.`,
+    benefits: [
+      "Attirer des talents rares et hautement qualifiés",
+      "Garantir un processus de recrutement sur-mesure, adapté à vos enjeux spécifiques",
+      "Sécuriser vos recrutements grâce à une méthodologie éprouvée",
+      "Accélérer l'intégration des nouveaux collaborateurs pour maximiser leur impact"
+    ],
+    cta: "Prêts à trouver les talents qui transformeront votre entreprise ?"
+  },
+  {
     icon: Brain,
     title: "COACHING",
     tagline: "Inspirez vos équipes, développez les talents, dépassez vos objectifs.",
@@ -46,26 +66,7 @@ const expertises = [
     ],
     cta: "Prêts à accompagner vos équipes vers leur plein potentiel ?"
   },
-  {
-    icon: Target,
-    title: "HEADHUNTING",
-    tagline: "Débusquer les talents, façonner l'avenir de vos équipes.",
-    description: `Le recrutement est une étape décisive pour toute entreprise. Les équipes
-    doivent s'adapter, de nouvelles compétences deviennent indispensables, et le
-    marché regorge de talents… mais comment repérer celui qui fera la différence ?`,
-    question: "Êtes-vous prêt à transformer ce défi en opportunité stratégique ?",
-    solution: `Chez ASK Advisory, nous savons que chaque talent est unique, tout
-    comme les besoins de votre entreprise. Grâce à une méthodologie rigoureuse et
-    un réseau étendu, nous identifions les profils qui s'alignent parfaitement avec
-    vos objectifs.`,
-    benefits: [
-      "Attirer des talents rares et hautement qualifiés",
-      "Garantir un processus de recrutement sur-mesure, adapté à vos enjeux spécifiques",
-      "Sécuriser vos recrutements grâce à une méthodologie éprouvée",
-      "Accélérer l'intégration des nouveaux collaborateurs pour maximiser leur impact"
-    ],
-    cta: "Prêts à trouver les talents qui transformeront votre entreprise ?"
-  },
+  
   {
     icon: Award,
     title: "FORMATION",

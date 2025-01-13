@@ -16,6 +16,16 @@ const solutions = [
     hoverColor: "#68b0d9"
   },
   {
+    title: "CHASSE DE TÊTE",
+    description: "Identifiez et recrutez les talents qui feront la différence.",
+    details: "Attirez les meilleurs profils, sécurisez vos recrutements stratégiques.",
+    cta: "RECRUTEZ LES MEILLEURS",
+    href: "/ask-for-solutions/chasse-de-tete",
+    icon: Target,
+    color: "#fdca3f",
+    hoverColor: "#316082"
+  },
+  {
     title: "COACHING",
     description: "Renforcez le potentiel de vos collaborateurs et accompagnez-les vers l'excellence.",
     details: "Développez les compétences clés, inspirez le leadership, et catalysez la performance.",
@@ -25,16 +35,7 @@ const solutions = [
     color: "#68b0d9",
     hoverColor: "#316082"
   },
-  {
-    title: "HEADHUNTING",
-    description: "Identifiez et recrutez les talents qui feront la différence.",
-    details: "Attirez les meilleurs profils, sécurisez vos recrutements stratégiques.",
-    cta: "RECRUTEZ LES MEILLEURS",
-    href: "/ask-for-solutions/headhunting",
-    icon: Target,
-    color: "#fdca3f",
-    hoverColor: "#316082"
-  },
+  
   {
     title: "FORMATION",
     description: "Développez les compétences clés pour relever les défis de demain.",

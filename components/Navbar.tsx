@@ -18,13 +18,13 @@ const Navbar = () => {
       subMenu: [
         { label: "CONSEIL RH", href: "/ask-for-solutions/conseil-rh" },
         { label: "COACHING", href: "/ask-for-solutions/coaching" },
-        { label: "HEADHUNTING", href: "/ask-for-solutions/headhunting" },
+        { label: "CHASSE DE TÊTE", href: "/ask-for-solutions/chasse-de-tete" },
         { label: "FORMATION", href: "/ask-for-solutions/formation" },
         { label: "TEAM-BUILDING", href: "/ask-for-solutions/team-building" },
       ],
     },
     { label: "ASK FOR SUCCESS", href: "/ask-for-success" },
-    { label: "CONTACTEZ-NOUS", href: "/contact" },
+    { label: "ASK ME", href: "/contact" },
   ];
 
   return (
