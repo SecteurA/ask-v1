@@ -51,28 +51,28 @@ export default function Footer() {
               height={48}
               className="brightness-0 invert"
             />
-            <p className="text-white/80">
+            <p className="text-white/90">
               ASK Advisory transforme vos défis RH en opportunités de croissance. 
               Expertise, innovation et engagement pour des solutions sur mesure.
             </p>
             <div className="flex space-x-4">
               <Link 
                 href={contact.social.linkedin} 
-                className="hover:text-[#fdca3f] transition-colors"
+                className="text-white hover:text-[#fdca3f] transition-colors"
                 aria-label="Suivez-nous sur LinkedIn"
               >
                 <Linkedin className="w-6 h-6" aria-hidden="true" />
               </Link>
               <Link 
                 href={contact.social.facebook} 
-                className="hover:text-[#fdca3f] transition-colors"
+                className="text-white hover:text-[#fdca3f] transition-colors"
                 aria-label="Suivez-nous sur Facebook"
               >
                 <Facebook className="w-6 h-6" aria-hidden="true" />
               </Link>
               <Link 
                 href={contact.social.instagram} 
-                className="hover:text-[#fdca3f] transition-colors"
+                className="text-white hover:text-[#fdca3f] transition-colors"
                 aria-label="Suivez-nous sur Instagram"
               >
                 <Instagram className="w-6 h-6" aria-hidden="true" />
@@ -93,7 +93,7 @@ export default function Footer() {
                 <li key={item.name}>
                   <Link 
                     href={item.href}
-                    className="text-white/80 hover:text-[#fdca3f] transition-colors"
+                    className="text-white/90 hover:text-[#fdca3f] transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -115,7 +115,7 @@ export default function Footer() {
                 <li key={item.name}>
                   <Link 
                     href={item.href}
-                    className="text-white/80 hover:text-[#fdca3f] transition-colors"
+                    className="text-white/90 hover:text-[#fdca3f] transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -136,7 +136,7 @@ export default function Footer() {
               <li>
                 <Link 
                   href={`mailto:${contact.email}`}
-                  className="flex items-center text-white/80 hover:text-[#fdca3f] transition-colors"
+                  className="flex items-center text-white/90 hover:text-[#fdca3f] transition-colors"
                 >
                   <Mail className="w-5 h-5 mr-2" aria-hidden="true" />
                   {contact.email}
@@ -145,13 +145,13 @@ export default function Footer() {
               <li>
                 <Link 
                   href={`tel:${contact.phone}`}
-                  className="flex items-center text-white/80 hover:text-[#fdca3f] transition-colors"
+                  className="flex items-center text-white/90 hover:text-[#fdca3f] transition-colors"
                 >
                   <Phone className="w-5 h-5 mr-2" aria-hidden="true" />
                   {contact.phone}
                 </Link>
               </li>
-              <li className="flex items-start text-white/80">
+              <li className="flex items-start text-white/90">
                 <MapPin className="w-5 h-5 mr-2 mt-1 flex-shrink-0" aria-hidden="true" />
                 {contact.address}
               </li>
@@ -161,17 +161,17 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-white/10">
+      <div className="border-t border-white/20">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-16 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-white/60 text-sm">
+            <p className="text-white/90 text-sm">
               © {new Date().getFullYear()} ASK Advisory. Tous droits réservés.
             </p>
             <div className="flex space-x-6 text-sm">
-              <Link href="/privacy" className="text-white/60 hover:text-white transition-colors">
+              <Link href="/privacy" className="text-white/90 hover:text-white transition-colors">
                 Politique de confidentialité
               </Link>
-              <Link href="/terms" className="text-white/60 hover:text-white transition-colors">
+              <Link href="/terms" className="text-white/90 hover:text-white transition-colors">
                 Mentions légales
               </Link>
             </div>
