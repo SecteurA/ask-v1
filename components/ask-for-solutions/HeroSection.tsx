@@ -37,7 +37,7 @@ export default function HeroSection() {
                 sur-mesure sont conçues pour transformer vos ambitions en résultats concrets.
               </p>
               <p className="text-[#316082] font-semibold">
-                Vous avez un projet RH spécifique ? Découvrez comment nos expertises peuvent vous 
+                Vous avez un projet RH spécifique ? Découvrez comment nos experts peuvent vous 
                 accompagner à chaque étape de votre transformation.
               </p>
             </div>
