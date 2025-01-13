@@ -60,7 +60,7 @@ export default function ContactPage() {
               {
                 icon: Phone,
                 title: "Téléphone",
-                info: "+212 661 00 00 00",
+                info: "+212 661 18 15 16",
                 subInfo: "Du lundi au vendredi, 9h-18h"
               },
               {
@@ -72,8 +72,8 @@ export default function ContactPage() {
               {
                 icon: MapPin,
                 title: "Adresse",
-                info: "Zénith Center, Av. Al Eucalypthus",
-                subInfo: "10100 Rabat, Maroc"
+                info: "46 RUE EL BATINIA IMMEUBLE LA ROSE III MAARIF",
+                subInfo: "CASABLANCA, MAROC"
               }
             ].map((item, index) => {
               const Icon = item.icon;
