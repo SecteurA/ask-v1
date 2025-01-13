@@ -92,7 +92,7 @@ export default function ExpertiseCard({ expertise, index }: ExpertiseCardProps) 
           <div className="space-y-8">
             <div className="bg-gray-50 rounded-xl p-8 border-l-4 border-[#316082]">
               <h4 className="text-xl font-bold text-[#316082] mb-6">
-                Concrètement, faire appel à notre expertise en conseil RH, c'est :
+                Concrètement, faire appel à notre expertise en {expertise.title.toLowerCase()}, c'est :
               </h4>
               <ul className="space-y-4">
                 {expertise.benefits.map((benefit, index) => (
