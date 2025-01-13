@@ -17,7 +17,7 @@ const founders = [
       "Accompagnement des équipes dans le changement"
     ],
     linkedin: "#",
-    image: "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+    image: "https://pub-237d2da54b564d23aaa1c3826e1d4e65.r2.dev/askadvisory/Karima-Dounia.webp"
   },
   {
     name: "Meriem ELLABA",
