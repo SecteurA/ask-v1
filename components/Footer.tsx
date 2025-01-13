@@ -21,8 +21,8 @@ const company = [
 
 const contact = {
   email: "contact@askadvisory.ma",
-  phone: "+212 661 00 00 00",
-  address: "Zénith Center, Av. Al Eucalypthus, 10100 Rabat, Maroc",
+  phone: "+212 661 18 15 16",
+  address: "46 RUE EL BATINIA IMMEUBLE LA ROSE III MAARIF, CASABLANCA, Maroc",
   social: {
     linkedin: "#",
     facebook: "#",
