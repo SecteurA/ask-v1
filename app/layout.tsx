@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   authors: [{ name: 'ASK Advisory' }],
   creator: 'ASK Advisory',
   publisher: 'ASK Advisory',
+  icons: {
+    icon: 'https://pub-237d2da54b564d23aaa1c3826e1d4e65.r2.dev/askadvisory/favicon.ico',
+    shortcut: 'https://pub-237d2da54b564d23aaa1c3826e1d4e65.r2.dev/askadvisory/favicon.ico',
+  },
   formatDetection: {
     email: false,
     address: false,
