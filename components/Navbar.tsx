@@ -18,7 +18,7 @@ const Navbar = () => {
       subMenu: [
         { label: "CONSEIL RH", href: "/ask-for-solutions/conseil-rh" },
         { label: "COACHING", href: "/ask-for-solutions/coaching" },
-        { label: "CHASSE DE TÊTE", href: "/ask-for-solutions/chasse-de-tete" },
+        { label: "CHASSE DE TÊTE", href: "/ask-for-solutions/headhunting" },
         { label: "FORMATION", href: "/ask-for-solutions/formation" },
         { label: "TEAM-BUILDING", href: "/ask-for-solutions/team-building" },
       ],

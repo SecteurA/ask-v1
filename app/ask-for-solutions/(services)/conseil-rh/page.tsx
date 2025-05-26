@@ -40,7 +40,7 @@ export default function ConseilRHPage() {
                   CONSEIL RH
                 </span>
                 <span className="block text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-[#68b0d9] to-white bg-clip-text text-transparent">
-                  Révélez la force cachée de vos ressources humaines
+                  Révélez le plein potentiel de vos ressources humaines
                 </span>
               </h1>
 
@@ -49,8 +49,6 @@ export default function ConseilRHPage() {
                 Transformez vos pratiques RH
                 <span className="block mt-1">en leviers de performance</span>
               </p>
-
-             
             </motion.div>
           </div>
         </div>
@@ -72,21 +70,13 @@ export default function ConseilRHPage() {
             <div className="space-y-8">
               <div className="space-y-6 text-lg text-gray-600">
                 <p>
-                  Votre entreprise évolue dans un environnement en constante mutation. Les attentes 
-                  des collaborateurs changent, les besoins organisationnels deviennent plus 
-                  complexes, et les processus traditionnels ne suffisent plus à répondre aux 
-                  défis actuels.
+                  Dans un environnement en perpétuelle évolution, votre organisation fait face à des défis croissants. Les attentes des collaborateurs évoluent, les exigences organisationnelles sont de plus en plus complexes et les pratiques traditionnelles ne suffisent plus à répondre aux enjeux d'aujourd'hui et de demain.
                 </p>
                 <p className="text-xl font-medium text-[#316082] italic">
-                  Vous vous demandez comment aligner vos ressources humaines sur vos ambitions 
-                  stratégiques tout en restant fidèle à vos valeurs ?
+                  Vous vous interrogez sur la manière d'aligner vos ressources humaines avec vos objectifs stratégiques tout en préservant vos valeurs fondamentales ?
                 </p>
                 <p>
-                  Chez ASK Advisory, nous transformons vos ressources humaines en un levier 
-                  stratégique. Notre équipe vous accompagne pour optimiser vos politiques RH, 
-                  moderniser vos processus, et anticiper les changements à venir. Grâce à une 
-                  approche sur-mesure, nous intervenons à vos côtés pour relever vos défis 
-                  spécifiques et bâtir des solutions concrètes adaptées à vos ambitions.
+                  Chez ASK ADVISORY, nous transformons vos ressources humaines en un levier stratégique. Notre équipe vous accompagne pour repenser et optimiser vos politiques RH, moderniser vos processus et anticiper les évolutions à venir. Grâce à une approche sur mesure, nous vous apportons des solutions concrètes et adaptées à vos enjeux spécifiques pour la réalisation de vos ambitions.
                 </p>
               </div>
             </div>
@@ -117,16 +107,16 @@ export default function ConseilRHPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl font-bold text-[#316082] mb-6">
-              Concrètement, faire appel à notre expertise en Conseil RH, c'est :
+              En faisant appel à notre expertise en conseil en RH, vous bénéficiez de :
             </h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              "Aligner vos politiques RH sur vos objectifs stratégiques",
-              "Renforcer la gestion des talents pour attirer et fidéliser les meilleurs profils",
-              "Accompagner le changement avec des outils et méthodes éprouvées",
-              "Optimiser vos processus pour gagner en efficacité et en agilité"
+              "Conseil stratégique & accompagnement RH",
+              "Développement des talents & performance",
+              "Gestion des compétences & planification RH",
+              "Ingénierie & pilotage de la formation"
             ].map((benefit, index) => (
               <motion.div
                 key={index}

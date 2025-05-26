@@ -37,20 +37,14 @@ export default function HeadhuntingPage() {
               {/* Main Heading */}
               <h1 className="font-bold tracking-tight mb-6">
                 <span className="block text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-2">
-                  HEADHUNTING
+                  Chasse de Tête
                 </span>
                 <span className="block text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-[#68b0d9] to-white bg-clip-text text-transparent">
-                  Débusquer les talents, façonner l'avenir
+                  Identifiez et attirez les talents stratégiques pour votre entreprise
                 </span>
               </h1>
 
-              {/* Description */}
-              <p className="text-lg md:text-xl lg:text-2xl text-white/90 font-light leading-relaxed mb-12 max-w-2xl">
-                Identifiez et recrutez les talents
-                <span className="block mt-1">qui feront la différence</span>
-              </p>
-
-             
+              
             </motion.div>
           </div>
         </div>
@@ -72,23 +66,10 @@ export default function HeadhuntingPage() {
             <div className="space-y-8">
               <div className="space-y-6 text-lg text-gray-600">
                 <p>
-                  Le recrutement est une étape décisive pour toute entreprise. Les équipes 
-                  doivent s'adapter, de nouvelles compétences deviennent indispensables, et le 
-                  marché regorge de talents… mais comment repérer celui qui fera la différence ? 
-                  Trouver le bon profil, capable de répondre aux exigences techniques tout en 
-                  s'intégrant parfaitement à la culture de votre organisation, est un exercice 
-                  complexe. Chaque jour sans la bonne personne ralentit vos projets et freine 
-                  votre élan.
+                  Dans un marché du travail en constante évolution, attirer les bons profils est devenu un véritable défi. La chasse de tête, ou recrutement de profils stratégiques, consiste à identifier et recruter des talents exceptionnels, souvent rares, qui vont non seulement répondre aux exigences techniques mais aussi s'intégrer pleinement à la culture et aux valeurs de votre entreprise.
                 </p>
                 <p className="text-xl font-medium text-[#316082] italic">
-                  Êtes-vous prêt à transformer ce défi en opportunité stratégique ?
-                </p>
-                <p>
-                  Chez ASK Advisory, nous savons que chaque talent est unique, tout comme les 
-                  besoins de votre entreprise. Grâce à une méthodologie rigoureuse et un réseau 
-                  étendu, nous identifions les profils qui s'alignent parfaitement avec vos 
-                  objectifs stratégiques et vos valeurs. Du diagnostic initial à l'intégration 
-                  réussie, nous vous accompagnons à chaque étape du processus de recrutement.
+                  Chez ASK ADVISORY, nous mettons à votre disposition notre expertise en chasse de tête pour vous aider à trouver les leaders de demain. Grâce à une approche proactive et ciblée, nous allons au-delà des candidatures classiques pour vous connecter avec les meilleurs talents.
                 </p>
               </div>
             </div>
@@ -119,16 +100,16 @@ export default function HeadhuntingPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl font-bold text-[#316082] mb-6">
-              Concrètement, faire appel à notre expertise en headhunting, c'est :
+              Notre approche de la chasse de tête :
             </h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              "Attirer des talents rares et hautement qualifiés",
-              "Garantir un processus de recrutement sur-mesure, adapté à vos enjeux spécifiques",
-              "Sécuriser vos recrutements grâce à une méthodologie éprouvée",
-              "Accélérer l'intégration des nouveaux collaborateurs pour maximiser leur impact"
+              "Identification de talents rares : Nous utilisons des méthodes de recherche avancées et un réseau étendu pour repérer des profils stratégiques qui correspondent à vos besoins spécifiques.",
+              "Recrutement sur mesure : Chaque mission de recrutement est adaptée aux enjeux particuliers de votre entreprise, en tenant compte de votre culture organisationnelle, de vos objectifs à court et à long terme et des compétences spécifiques recherchées.",
+              "Processus rigoureux de sélection : Nous assurons une évaluation complète des candidats, en menant des entretiens approfondis, des tests d'aptitude et des vérifications de références pour garantir la qualité et la pertinence des profils proposés.",
+              "Accompagnement personnalisé tout au long du processus : De l'identification des besoins à l'intégration des candidats sélectionnés, nous vous accompagnons à chaque étape, en garantissant une transition fluide et une prise en main rapide des nouveaux collaborateurs."
             ].map((benefit, index) => (
               <motion.div
                 key={index}
@@ -160,10 +141,10 @@ export default function HeadhuntingPage() {
             className="text-center"
           >
             <h2 className="text-3xl font-bold text-white mb-6">
-              Prêts à trouver les talents qui transformeront votre entreprise ?
+              Un partenariat stratégique pour attirer les talents qui feront la différence
             </h2>
             <p className="text-xl text-white/90 mb-12">
-              Contactez-nous dès aujourd'hui pour découvrir nos solutions en recrutement sur mesure.
+              La chasse de tête est bien plus qu'un simple recrutement. C'est un processus stratégique qui permet à votre entreprise de se doter des talents clés pour sa croissance et sa compétitivité. Nous vous accompagnons dans cette démarche en vous apportant notre expertise, notre réseau et notre méthodologie rigoureuse pour trouver les talents qui répondent à vos exigences et qui s'intègrent parfaitement à votre vision.
             </p>
             <Link
               href="/contact"

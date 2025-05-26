@@ -40,17 +40,15 @@ export default function FormationPage() {
                   FORMATION
                 </span>
                 <span className="block text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-[#68b0d9] to-white bg-clip-text text-transparent">
-                  Apprenez, évoluez, dépassez vos attentes
+                 Développement des compétences 
                 </span>
               </h1>
 
               {/* Description */}
               <p className="text-lg md:text-xl lg:text-2xl text-white/90 font-light leading-relaxed mb-12 max-w-2xl">
-                Développez les compétences clés
-                <span className="block mt-1">pour relever les défis de demain</span>
+                
+                <span className="block mt-1">un levier stratégique pour votre réussite</span>
               </p>
-
-             
             </motion.div>
           </div>
         </div>
@@ -72,20 +70,13 @@ export default function FormationPage() {
             <div className="space-y-8">
               <div className="space-y-6 text-lg text-gray-600">
                 <p>
-                  Les compétences qui ont fait le succès d'hier ne suffiront pas toujours à 
-                  relever les défis de demain. Dans un monde en perpétuelle évolution, vos 
-                  équipes doivent s'adapter, innover, et anticiper.
+                  La formation est un pilier essentiel dans le développement du capital humain et l'adaptation continue aux évolutions du marché. Elle permet non seulement de renforcer les compétences de vos collaborateurs, mais aussi d'assurer leur engagement et leur efficacité au sein de l'organisation. Chez ASK ADVISORY, nous comprenons que chaque entreprise a des besoins spécifiques en matière de formation. C'est pourquoi nous proposons des solutions sur mesure, adaptées à vos enjeux stratégiques, pour accompagner la montée en compétences de vos équipes.
                 </p>
                 <p className="text-xl font-medium text-[#316082] italic">
-                  Mais comment s'assurer que chaque collaborateur dispose des outils nécessaires 
-                  pour grandir et contribuer pleinement à la performance collective ?
+                  Notre approche de la formation : un processus structuré et personnalisé
                 </p>
                 <p>
-                  Chez ASK Advisory, nous concevons des formations sur-mesure, pensées pour 
-                  répondre aux enjeux spécifiques de votre entreprise. Que ce soit pour 
-                  développer des compétences techniques, renforcer les qualités de leadership 
-                  ou accompagner une transformation organisationnelle, nos programmes sont 
-                  conçus pour avoir un impact immédiat et durable.
+                  Nous intervenons à toutes les étapes de la démarche de formation.
                 </p>
               </div>
             </div>
@@ -116,16 +107,16 @@ export default function FormationPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl font-bold text-[#316082] mb-6">
-              Concrètement, choisir nos formations, c'est :
+              Nous intervenons à toutes les étapes de la démarche de formation :
             </h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              "Renforcer les compétences clés pour répondre aux enjeux stratégiques",
-              "Accompagner vos collaborateurs dans leur évolution professionnelle",
-              "Favoriser l'innovation et la créativité au sein des équipes",
-              "Soutenir un environnement de travail collaboratif et motivant"
+              "Diagnostic des besoins : Identification des compétences à développer à l'échelle individuelle et collective.",
+              "Conception de parcours sur-mesure : Élaboration de programmes de formation alignés avec vos objectifs de performance.",
+              "Mise en œuvre et suivi : Gestion de la formation, suivi des progrès et mesure de l'impact sur la performance.",
+              "Optimisation continue : Analyse des retours et ajustement des programmes pour garantir une évolution constante des compétences."
             ].map((benefit, index) => (
               <motion.div
                 key={index}
@@ -142,6 +133,24 @@ export default function FormationPage() {
               </motion.div>
             ))}
           </div>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="mt-12 bg-white p-8 rounded-2xl shadow-lg"
+          >
+            <h3 className="text-2xl font-bold text-[#316082] mb-4 text-center">
+              Un partenariat durable pour le développement de vos talents
+            </h3>
+            <p className="text-gray-600 text-lg mb-4">
+              Grâce à notre expertise en ingénierie de formation, nous vous aidons à bâtir une véritable politique de formation qui soutient votre stratégie globale, en lien avec la gestion des compétences et la préparation de l'avenir de votre organisation.
+            </p>
+            <p className="text-gray-600 text-lg">
+              L'investissement dans la formation est essentiel pour pérenniser la compétitivité de votre entreprise et garantir la réussite de vos projets. Nous vous accompagnons dans cette démarche pour faire de chaque collaborateur un moteur de votre succès.
+            </p>
+          </motion.div>
         </div>
       </section>
 

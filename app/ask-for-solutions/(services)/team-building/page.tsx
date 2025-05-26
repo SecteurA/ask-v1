@@ -46,11 +46,9 @@ export default function TeamBuildingPage() {
 
               {/* Description */}
               <p className="text-lg md:text-xl lg:text-2xl text-white/90 font-light leading-relaxed mb-12 max-w-2xl">
-                Créez des équipes soudées et motivées
-                <span className="block mt-1">prêtes à relever tous les défis</span>
+                Renforcer la cohésion 
+                <span className="block mt-1">pour une performance collective optimale</span>
               </p>
-
-              
             </motion.div>
           </div>
         </div>
@@ -72,22 +70,17 @@ export default function TeamBuildingPage() {
             <div className="space-y-8">
               <div className="space-y-6 text-lg text-gray-600">
                 <p>
-                  Une équipe talentueuse et compétente peut accomplir de grandes choses, mais 
-                  sans collaboration, les efforts individuels peinent à se transformer en 
-                  résultats collectifs. Vous constatez des tensions, un manque de communication, 
-                  ou simplement une motivation qui s'effrite avec le temps.
+                  Dans un environnement de travail en constante évolution, la cohésion des équipes est un facteur clé de succès. 
+                  Le team building ne se limite pas à des activités ludiques, il s'agit d'une démarche stratégique visant à renforcer 
+                  les liens entre vos collaborateurs, à favoriser la collaboration et à améliorer la communication au sein de vos équipes.
                 </p>
                 <p className="text-xl font-medium text-[#316082] italic">
-                  Comment renforcer la cohésion et l'engagement pour créer une équipe 
-                  véritablement alignée et performante ?
+                  Chez ASK ADVISORY, nous concevons des programmes de team building sur mesure, adaptés aux spécificités de votre 
+                  entreprise et à vos objectifs de performance. Loin des solutions standardisées, nous créons des expériences enrichissantes 
+                  qui répondent à vos besoins tout en favorisant la dynamique de groupe.
                 </p>
                 <p>
-                  Chez ASK Advisory, nous croyons que la réussite collective repose sur des 
-                  liens solides et une dynamique de groupe positive. Nos activités de 
-                  team-building sont conçues pour répondre aux besoins spécifiques de vos 
-                  équipes : renforcer la collaboration, restaurer la confiance, et stimuler 
-                  la créativité. Chaque intervention est pensée pour à la fois avoir de 
-                  l'impact et s'adapter à vos objectifs.
+                  Nous vous accompagnons pour faire de chaque moment partagé une opportunité de croissance et de succès collectif.
                 </p>
               </div>
             </div>
@@ -118,16 +111,15 @@ export default function TeamBuildingPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl font-bold text-[#316082] mb-6">
-              Concrètement, faire appel à notre expertise en team-building, c'est :
+              Notre approche du Team Building :
             </h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              "Renforcer la cohésion et la communication au sein des équipes",
-              "Créer un environnement de travail motivant et collaboratif",
-              "Stimuler la créativité et l'innovation collective",
-              "Améliorer la performance globale grâce à une équipe alignée"
+              "Adaptation aux enjeux de l'entreprise : Chaque programme est conçu en fonction des objectifs stratégiques de votre organisation, qu'il s'agisse de favoriser l'innovation, d'améliorer la gestion du stress ou de développer la créativité collective.",
+              "Encouragement de la collaboration : Des activités qui facilitent les échanges entre les différentes entités et permettent de mieux comprendre les défis de chacun.",
+              "Renforcement de la cohésion : Des activités ciblées pour encourager la collaboration, améliorer la communication et développer un esprit d'équipe solide."
             ].map((benefit, index) => (
               <motion.div
                 key={index}

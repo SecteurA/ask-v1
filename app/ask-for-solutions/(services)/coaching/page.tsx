@@ -49,8 +49,6 @@ export default function CoachingPage() {
                 Transformez le potentiel de vos collaborateurs
                 <span className="block mt-1">en performance durable</span>
               </p>
-
-          
             </motion.div>
           </div>
         </div>
@@ -72,22 +70,13 @@ export default function CoachingPage() {
             <div className="space-y-8">
               <div className="space-y-6 text-lg text-gray-600">
                 <p>
-                  Les défis professionnels sont nombreux : responsabilités croissantes, 
-                  objectifs ambitieux, ou transitions complexes. Que ce soit pour un manager, 
-                  un expert ou un collaborateur, le besoin de progresser et de trouver des 
-                  solutions concrètes est essentiel.
+                  Les défis professionnels sont nombreux : responsabilités croissantes, objectifs ambitieux ou transitions complexes. Que ce soit pour un manager, un expert ou un collaborateur, le besoin de progresser et de trouver des solutions concrètes est essentiel.
                 </p>
                 <p className="text-xl font-medium text-[#316082] italic">
                   Comment accompagner vos équipes dans cette évolution ?
                 </p>
                 <p>
-                  Chez ASK Advisory, nous croyons que chaque collaborateur, quel que soit son 
-                  rôle, a un potentiel unique à révéler. Nos programmes de coaching, individuels 
-                  et collectifs, sont conçus pour répondre aux besoins spécifiques de vos équipes, 
-                  qu'il s'agisse de développer des compétences, d'améliorer la performance ou de 
-                  surmonter des défis professionnels. Grâce à une approche personnalisée, nous 
-                  aidons vos talents à grandir, à s'épanouir, et à contribuer pleinement à la 
-                  réussite collective.
+                  Chez ASK ADVISORY, nous croyons fermement que chaque individu possède un potentiel unique, qu'il convient de révéler et d'exploiter pleinement. Nos programmes de coaching personnalisé sont conçus pour répondre à vos besoins spécifiques, en vous permettant de développer vos compétences, d'améliorer votre performance et de surmonter les obstacles qui freinent votre réussite. Grâce à un accompagnement sur-mesure, nous vous aidons à grandir, à vous épanouir et à atteindre vos objectifs professionnels, tout en contribuant au succès global de votre organisation.
                 </p>
               </div>
             </div>
@@ -118,16 +107,16 @@ export default function CoachingPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl font-bold text-[#316082] mb-6">
-              Concrètement, faire appel à notre expertise en coaching, c'est :
+              Concrètement, notre expertise en coaching a pour objectifs :
             </h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              "Accompagner vos collaborateurs dans leur développement personnel et professionnel",
-              "Renforcer la confiance et l'efficacité dans des contextes variés",
-              "Faciliter la gestion des transitions ou des défis complexes",
-              "Créer un environnement de travail épanouissant et performant"
+              "Le développement du leadership",
+              "L'évolution de carrière (définition d'objectifs professionnels clairs …)",
+              "La gestion du changement",
+              "La communication interpersonnelle (amélioration des interactions avec collègues/clients …)"
             ].map((benefit, index) => (
               <motion.div
                 key={index}

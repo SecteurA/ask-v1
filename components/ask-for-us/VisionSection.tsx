@@ -7,7 +7,7 @@ const visionPoints = [
   {
     icon: Lightbulb,
     title: "Innovation Continue",
-    description: "Nous imaginons des solutions qui ne se contentent pas de répondre aux besoins d'aujourd'hui, mais qui préparent vos équipes aux défis de demain."
+    description: "Nous concevons des solutions qui vont au-delà des besoins actuels en préparant vos équipes à relever les défis de demain."
   },
   {
     icon: Target,
@@ -17,7 +17,7 @@ const visionPoints = [
   {
     icon: Users,
     title: "Évolution Collective",
-    description: "Notre vision est celle d'un monde professionnel où les entreprises et leurs collaborateurs évoluent ensemble, main dans la main."
+    description: "Notre vision est celle d'un monde professionnel où entreprises et collaborateurs évoluent ensemble main dans la main."
   }
 ];
 
@@ -42,13 +42,16 @@ export default function VisionSection() {
             Imaginer le futur, agir dans le présent !
           </h3>
 
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Chez ASK Advisory, notre vision est simple : accompagner les entreprises 
-            et leurs collaborateurs dans leur transformation pour bâtir un avenir aligné 
-            sur leurs valeurs et leurs ambitions. Nous croyons qu'un management centré 
-            sur l'humain est la clé d'un environnement de travail épanouissant, 
-            performant, et durable.
-          </p>
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-white p-8 rounded-2xl shadow-sm mb-12">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                La perspective de ASK ADVISORY en tant que cabinet consultatif en matière de développement du capital humain est celle de s'établir en tant que chef de file éminent dans ce secteur en fournissant des solutions personnalisées et novatrices.
+              </p>
+              <p className="text-xl font-medium text-[#316082]">
+                Nous croyons en un management centré sur l'humain pour avoir un environnement de travail épanouissant, performant et durable.
+              </p>
+            </div>
+          </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
@@ -61,13 +64,13 @@ export default function VisionSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
-                className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
               >
                 <div className="w-16 h-16 bg-[#fdca3f] rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon className="w-8 h-8 text-[#316082]" />
                 </div>
                 <h4 className="text-xl font-bold text-[#316082] mb-4">{point.title}</h4>
-                <p className="text-gray-600">{point.description}</p>
+                <p className="text-gray-700">{point.description}</p>
               </motion.div>
             );
           })}

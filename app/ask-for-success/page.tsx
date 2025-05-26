@@ -10,30 +10,30 @@ const methodologySteps = [
   {
     number: "1",
     icon: Search,
-    title: "Diagnostic & compréhension",
+    title: "Diagnostic & Analyse",
     color: "#fdca3f",
-    description: "Tout commence par une écoute attentive et une analyse approfondie. Cette étape essentielle permet de cerner vos besoins, d'évaluer vos ressources, et d'identifier les leviers stratégiques à activer. Grâce à des outils de diagnostic personnalisés, nous posons les bases d'une intervention efficace."
+    description: "Chaque projet débute par une écoute attentive et une analyse détaillée. Cette étape cruciale nous permet de comprendre vos enjeux, d'évaluer vos ressources et de repérer les leviers stratégiques à exploiter. Grâce à des outils de diagnostic sur mesure, nous établissons les fondations d'une intervention ciblée et performante."
   },
   {
     number: "2",
     icon: Settings,
-    title: "Conception & personnalisation des solutions",
+    title: "Conception & Personnalisation des Solutions",
     color: "#316082",
-    description: "Chaque entreprise est unique, et ses solutions doivent l'être aussi. Nous concevons des plans d'action sur-mesure, pensés pour répondre à vos défis spécifiques tout en alignant vos équipes sur vos objectifs stratégiques."
+    description: "Chaque entreprise est unique et les solutions que nous proposons doivent refléter cette singularité. Nous élaborons des plans d'action sur mesure, adaptés à vos défis uniques, et veillons à ce que vos équipes soient pleinement alignées sur vos objectifs stratégiques."
   },
   {
     number: "3",
     icon: Rocket,
-    title: "Mise en œuvre & accompagnement",
+    title: "Mise en œuvre & Accompagnement",
     color: "#68b0d9",
-    description: "Passer de la stratégie à l'action est la clé du succès. Nous vous accompagnons tout au long de la mise en œuvre pour garantir que chaque étape se déroule avec fluidité, en engageant vos équipes et en assurant un suivi rigoureux."
+    description: "Le passage de la stratégie à l'action est essentiel pour atteindre vos objectifs. Nous vous soutenons à chaque étape de la mise en œuvre, en assurant une exécution fluide, en mobilisant vos équipes et en garantissant un suivi constant et rigoureux."
   },
   {
     number: "4",
     icon: Sliders,
-    title: "Évaluation & ajustement",
+    title: "Évaluation & Ajustement",
     color: "#00A896",
-    description: "Parce que l'amélioration continue est au cœur de notre démarche, nous évaluons les résultats obtenus et ajustons nos actions si nécessaire. Cette étape assure la pérennité des changements et maximise leur impact."
+    description: "L'amélioration continue étant au cœur de notre approche, nous mesurons les résultats obtenus et ajustons nos actions en fonction des besoins. Cette phase garantit la durabilité des changements et optimise leur impact à long terme."
   }
 ];
 
@@ -93,11 +93,7 @@ export default function AskForSuccessPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <p className="text-xl text-gray-600 leading-relaxed">
-              Chez ASK Advisory, chaque projet est une aventure unique. Nous croyons qu'une 
-              méthodologie structurée, alliée à une écoute attentive et à une approche sur-mesure, 
-              est la clé d'un partenariat réussi. Notre démarche s'adapte à vos besoins, vos 
-              objectifs, et votre réalité pour garantir des résultats concrets et durables. 
-              Ensemble, nous transformons vos défis en opportunités.
+              Chez ASK ADVISORY, chaque projet est une expérience unique. Nous sommes convaincus qu'une méthode rigoureuse, associée à une écoute attentive et à une approche personnalisée, constitue la base d'un partenariat fructueux. Nous adaptons notre démarche à vos besoins, vos objectifs et votre contexte pour assurer des résultats tangibles et durables. Ensemble, nous transformons vos défis en leviers de succès.
             </p>
           </motion.div>
         </div>

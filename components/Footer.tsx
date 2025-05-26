@@ -8,7 +8,7 @@ import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react
 const solutions = [
   { name: "CONSEIL RH", href: "/ask-for-solutions/conseil-rh" },
   { name: "COACHING", href: "/ask-for-solutions/coaching" },
-  { name: "CHASSE DE TÊTE", href: "/ask-for-solutions/chasse-de-tete" },
+  { name: "CHASSE DE TÊTE", href: "/ask-for-solutions/headhunting" },
   { name: "FORMATION", href: "/ask-for-solutions/formation" },
   { name: "TEAM-BUILDING", href: "/ask-for-solutions/team-building" },
 ];
