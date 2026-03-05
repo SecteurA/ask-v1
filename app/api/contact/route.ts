@@ -1,5 +1,9 @@
 export const runtime = 'edge';
 
+export async function GET() {
+  return new Response(JSON.stringify({ ok: true, hasKey: !!process.env.RESEND_API_KEY }), { status: 200 });
+}
+
 export async function POST(request: Request) {
   try {
     const { name, company, email, phone, subject, message } = await request.json();
