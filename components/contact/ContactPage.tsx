@@ -13,11 +13,22 @@ export default function ContactPage() {
     subject: '',
     message: ''
   });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log(formData);
+    setStatus('loading');
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+    if (res.ok) {
+      setStatus('success');
+      setFormData({ name: '', company: '', email: '', phone: '', subject: '', message: '' });
+    } else {
+      setStatus('error');
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -211,13 +222,24 @@ export default function ContactPage() {
                   />
                 </div>
 
+                {status === 'success' && (
+                  <p className="text-center text-green-600 font-medium">
+                    Votre message a été envoyé avec succès. Nous vous répondrons sous 24h.
+                  </p>
+                )}
+                {status === 'error' && (
+                  <p className="text-center text-red-600 font-medium">
+                    Une erreur est survenue. Veuillez réessayer ou nous contacter par téléphone.
+                  </p>
+                )}
                 <div className="flex justify-center">
                   <button
                     type="submit"
-                    className="inline-flex items-center bg-[#316082] hover:bg-[#68b0d9] text-white px-8 py-4 rounded-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl"
+                    disabled={status === 'loading'}
+                    className="inline-flex items-center bg-[#316082] hover:bg-[#68b0d9] disabled:opacity-60 text-white px-8 py-4 rounded-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl"
                   >
                     <Send className="w-5 h-5 mr-2" />
-                    Envoyer le message
+                    {status === 'loading' ? 'Envoi en cours...' : 'Envoyer le message'}
                   </button>
                 </div>
               </form>
