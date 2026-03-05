@@ -14,10 +14,12 @@ export default function ContactPage() {
     message: ''
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [errorDetail, setErrorDetail] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('loading');
+    setErrorDetail('');
     const res = await fetch('/api/contact', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -27,6 +29,8 @@ export default function ContactPage() {
       setStatus('success');
       setFormData({ name: '', company: '', email: '', phone: '', subject: '', message: '' });
     } else {
+      const text = await res.text();
+      setErrorDetail(text);
       setStatus('error');
     }
   };
@@ -228,9 +232,10 @@ export default function ContactPage() {
                   </p>
                 )}
                 {status === 'error' && (
-                  <p className="text-center text-red-600 font-medium">
-                    Une erreur est survenue. Veuillez réessayer ou nous contacter par téléphone.
-                  </p>
+                  <div className="text-center text-red-600 font-medium">
+                    <p>Une erreur est survenue. Veuillez réessayer ou nous contacter par téléphone.</p>
+                    {errorDetail && <p className="text-xs mt-1 text-red-400 break-all">{errorDetail}</p>}
+                  </div>
                 )}
                 <div className="flex justify-center">
                   <button
