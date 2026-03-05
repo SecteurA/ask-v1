@@ -21,7 +21,7 @@ export async function POST(request: Request) {
         reply_to: email,
         subject: `[Contact] ${subject} — ${name}`,
         html: `
-          <h2>Nouveau message de contact</h2>
+          <h2>Nouveau message via le site askadvisory.ma</h2>
           <p><strong>Nom :</strong> ${name}</p>
           <p><strong>Entreprise :</strong> ${company}</p>
           <p><strong>Email :</strong> ${email}</p>
